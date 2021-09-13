@@ -1,0 +1,155 @@
+.page-title {
+	font-family: cursive;
+	color: #fff;
+	font-size: 25px;
+	text-decoration: underline;
+	padding-right: 30px;
+}
+
+.d-block {
+	width: 100%;
+}
+
+.col>.card {
+	height: 67vh;
+}
+
+.col .card {
+	overflow: auto;
+	background-color: #fff;
+	box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+	border: 0;
+}
+
+.body {
+	background-color: #f9f9f9;
+}
+
+.header {
+	background-color: #94d8ff!important;
+	box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+	color: #17191a!important;
+	font-family: ui-rounded;
+	font-weight: bold;
+	border: 0px!important;
+	border-radius: 4px 4px 0 0;
+	font-size: 18px!important;
+}
+
+.plus {
+	font-size: 30px;
+	line-height: 0px;
+	color: #0d6efd;
+	/* display: inline-block;
+    padding-right:10px; */
+}
+
+.plus:hover {
+	color: red;
+}
+
+.add {
+	display: flex!important;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.add a {
+	display: inline-block;
+	height: 20px;
+	padding: 2px 3px 1px 3px;
+	margin-right: 10px;
+	border: 0;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.sub-card {
+	border: 1px solid #80aae8;
+	border-radius: 4px;
+}
+
+.sub-card .card-body {
+	padding: 10px;
+}
+
+.sub-card a.btn {
+	padding: 0 8px;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+.navbar .w40 {
+	width: 40%;
+}
+
+.description {
+	font-family: cursive;
+	font-size: 13px;
+}
+
+.custom-select {
+	border-radius: 4px;
+	border: 1px solid #94d8ff;
+	color: gray;
+	font-size: 15px;
+	width: 44%;
+}
+
+.custom-select:focus {
+	outline: 0;
+}
+
+.custom-select option {
+	font-size: 14px;
+	color: #039bf2;
+}
+
+.container-fluid .w39 {
+	width: 38%;
+	margin-left: 15px;
+}
+
+.customCard{
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+}
+
+/* iPad view */
+
+@media(max-width:992px) {
+	.col {
+		flex: 1 0;
+		min-width: 50%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.container-fluid .w39 {
+		width: 100%;
+		margin-left: 0px;
+	}
+	.col>.card {
+		height: 50vh;
+	}
+}
+
+
+/* mobile view */
+
+@media(max-width:767px) {
+	.col {
+		flex: 1 0;
+		min-width: 100%;
+		margin-bottom: 10px;
+	}
+	.container-fluid .w39 {
+		width: 100%;
+		margin-left: 0px;
+	}
+	.col>.card {
+		height: auto;
+	}
+}

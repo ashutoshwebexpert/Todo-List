@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "task": "Dummy1",
+      "description": "This is dummy description1",
+      "status": "add",
+      "id": 1
+    },
+    {
+      "task": "Dummy2",
+      "description": "This is dummy description2",
+      "status": "add",
+      "id": 2
+    },
+    {
+      "task": "Dummy3",
+      "description": "This is dummy description3",
+      "status": "add",
+      "id": 3
+    },
+    {
+      "task": "Dummy4",
+      "description": "This is dummy description4",
+      "status": "abandoned",
+      "id": 4
+    },
+    {
+      "task": "Dummy5",
+      "description": "This is dummy description5",
+      "status": "pending",
+      "id": 5
+    },
+    {
+      "task": "Dummy6",
+      "description": "This is dummy description6",
+      "status": "pending",
+      "id": 6
+    },
+    {
+      "task": "Text",
+      "description": "Task description",
+      "status": "abandoned",
+      "id": 7
+    },
+    {
+      "task": "Demo",
+      "description": "Demo description",
+      "status": "in-progress",
+      "id": 8
+    },
+    {
+      "task": "Todo List",
+      "description": "Work is done",
+      "status": "completed",
+      "id": 9
+    }
+  ]
+}
